@@ -1,0 +1,17 @@
+@media screen and (max-width: 750px){
+
+    h1 {
+        font-size: small;
+        align-items: center;
+        margin-right: 100%;
+        border: none;
+    }
+
+    span {
+        /* align-items: center; */
+        text-align: center;
+        display: inline-block;
+    }
+
+
+}
