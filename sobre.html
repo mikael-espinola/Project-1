@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="styles/stylewhatsapp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Sobre: Lavanderia Iasmim</title>
-    <style class="baseHeader">
+    <style id="baseHeader">
         body {
             background-color: aqua;
             font-family: 'Oswald';
@@ -19,28 +21,46 @@
 
         }
 
-        .menu {
-            margin: 15px 1s5px;
-            padding: 5px;
-            line-height: 10px;
-        }
-
-        .menu a {
-            margin: 5px;
-            justify-content: space-between;
-        }
-
-        .text {
+        /* .text {
             box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3);
             margin: 15% 25%;
             border: 10px dashed black;
             box-sizing: content-box;
-        }
+        } */
 
-        .text h1 {
+        /* .text h1 {
             color: black;
             font-weight: bold;
             text-align: center;
+        } */
+    </style>
+    <style id="edicaoTextual">
+        .apresentacao {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15px;
+            text-align: justify;
+        }
+
+        .apresentacao h1 {
+            font-family: 'Times New Roman', Times, serif;
+            text-decoration: underline;
+        }
+
+        .apresentacao h2 {
+            font-size: 30px;
+        }
+
+        .apresentacao2 h3 {
+            float: center;
+            margin: 0px;
+            height: 100px;
+            width: 600px;
+            text-align: justify;
+        }
+
+        .rodape {
+            text-align: right;
+            text-align: end;
         }
     </style>
 </head>
@@ -62,17 +82,31 @@
             <a href="sobre.html" target="_blank">
                 <li>Sobre</li>
             </a>
-            <a href="contato.html" target="_blank">
-                <li>Contato</li>
-            </a>
             <a href="jaTemUmaConta.html" target="_blank" id="inscreva-se-btn">
                 <li>Já tem uma conta?</li>
             </a>
         </ul>
     </header>
     <div class="text">
-        <h1>IN CONSTRUCTION. PLEASE WAIT FOR MORE!</h1>
+        <!-- <h1>IN CONSTRUCTION. PLEASE WAIT FOR MORE!</h1> -->
     </div>
+    <div class="apresentacao">
+        <h2>Sobre:</h2>
+    </div>
+    <div class="apresentacao2">
+        <h3>Fundada desde 2009, tem como principio o cuidado e bem estar dos seus clientes ofertando o melhor
+            serviço de lavagem às roupas, trajes e estofados entregando a qualidade
+            e confiança com mais de 13 anos de história e sorrisos.
+        </h3>
+    </div>
+    <div class="rodape">
+        <h4>Venha experimentar a maravilha dos nossos serviços. Clique no botão abaixo e nos contate!</h4>
+    </div>
+
+    <a class="whatsapp-link" href="https://api.whatsapp.com/send/?phone=558422260500" target="_blank">
+        <i class="fa fa-whatsapp"></i>
+    </a>
 </body>
+
 
 </html>
