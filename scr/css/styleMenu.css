@@ -1,0 +1,33 @@
+.header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 5px 5px;
+}
+
+.header .title {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header nav li a {
+    font-weight: bold;
+    font-size: 13px;
+    color: goldenrod;
+    padding: 5px 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.header nav li a:hover {
+    background-color: black;
+}
